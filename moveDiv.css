@@ -1,0 +1,28 @@
+#demo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  position: relative;
+  left: 0;
+}
+#demo2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(62, 206, 199);
+  transition: all 1s linear;
+}
+
+#demo2.end {
+  transform: translateX(200px);
+}
+#demo3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  transition: all 1s linear;
+}
+.othor {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+}

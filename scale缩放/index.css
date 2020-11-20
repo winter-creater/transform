@@ -1,0 +1,22 @@
+.wrapper {
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+#demo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  /* 动画效果 */
+}
+#demo:hover {
+  transform: scale(1.5);
+  /* scale会变形 */
+}

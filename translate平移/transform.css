@@ -1,0 +1,50 @@
+#demo1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin: 20px;
+}
+#demo1:hover {
+  transform: translateX(50px);
+}
+#demo2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(52, 117, 214);
+  margin: 20px;
+}
+#demo2:hover {
+  transform: translateY(50px);
+}
+#demo3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(72, 15, 179);
+  margin: 20px;
+}
+.wrapper {
+  perspective: 100px;
+  border: 1px solid black;
+}
+#demo3:hover {
+  transform: translateZ(0px);
+  /* 需要和父亲的 perspective属性一起用 */
+}
+#demo4 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(15, 113, 179);
+  margin: 20px;
+}
+#demo4:hover {
+  transform: translate(50px, 50px);
+}
+#demo5 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(15, 113, 179);
+  margin: 20px;
+}
+#demo5:hover {
+  transform: translate3d(50px, 50px, 200px);
+}
